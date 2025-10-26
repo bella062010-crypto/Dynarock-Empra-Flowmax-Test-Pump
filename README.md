@@ -1,2 +1,2 @@
-# Dynarock-Empra-Flowmax-KGHM-Test-Pump
+# Dynarock-Empra-FlowmaxTest-Pump
 Test Pump Tracking
