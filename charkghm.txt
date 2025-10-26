@@ -1,0 +1,33 @@
+options: {
+  plugins: {
+    annotation: {
+      annotations: {
+        bearingDriveThreshold: {
+          type: 'line',
+          yMin: 80,
+          yMax: 80,
+          borderColor: 'red',
+          borderWidth: 2,
+          label: {
+            content: 'Drive Temp Limit',
+            enabled: true,
+            position: 'end'
+          }
+        },
+        bearingNonDriveThreshold: {
+          type: 'line',
+          yMin: 75,
+          yMax: 75,
+          borderColor: 'purple',
+          borderWidth: 2,
+          label: {
+            content: 'Non-Drive Temp Limit',
+            enabled: true,
+            position: 'end'
+          }
+        }
+      }
+    }
+  }
+}
+
